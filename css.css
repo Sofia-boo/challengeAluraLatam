@@ -26,12 +26,7 @@ body {
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  .papu{
-  display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-    flex-direction: row;
-  }
+ 
  .caution{
   margin: 0;
   padding: 0;
