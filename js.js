@@ -1,16 +1,16 @@
-
 function programaEncriptador(){
     var value = document.getElementById("text").value
     var nvalue = value;
-    if(value.includes('a')){
-        nvalue=nvalue.replaceAll('a',"ai")
-    }
+  
     if(value.includes('e')){
         nvalue=nvalue.replaceAll('e',"enter")
     }
     if(value.includes('i')){
         nvalue=nvalue.replaceAll('i',"imes")
-    }  if(value.includes('o')){
+    }  if(value.includes('a')){
+        nvalue=nvalue.replaceAll('a',"ai")
+    }
+      if(value.includes('o')){
         nvalue=nvalue.replaceAll('o',"ober")
     } if(value.includes('u')){
         nvalue=nvalue.replaceAll('u',"ufat")
